@@ -1,0 +1,26 @@
+<!-- templates/base.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head><title>Base Page</title></head>
+<body>
+
+    <div id="header"><h2>Empty Header</h2></div>
+
+    <div id = "contentblock">
+
+        <!-- In the following, data is loaded from the templates which have the uniform header and footer. -->
+        {% block content %}
+
+        {% endblock %}
+
+        </div>
+
+    <div id="footer"><h2>Empty Footer</h2></div>
+
+</body>
+
+
+
+</html>
